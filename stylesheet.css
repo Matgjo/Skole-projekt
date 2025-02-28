@@ -1,0 +1,111 @@
+/*Container bliver brugt til at holde mine bannere og body på plads*/
+
+.container
+{
+    display: block;
+    flex-wrap: wrap;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+        
+}
+
+/*Styling af hele body tag.*/
+body{
+font-family: Arial;
+text-align: center;
+width:auto;
+height:auto;
+background-color:bisque;
+}
+
+.topnav
+{
+  /* Styling af navigation bar som helhed */
+  
+    /*float: left;*/
+
+    width:auto;
+    height:75px;
+    text-align: center;
+    font-style:Arial, italic;
+    font-size: 17px;
+    background-color:#002c6d;
+    color:#fff;
+    text-decoration:none;
+    margin:0;
+    border-radius:1px;
+    border-style:groove 10px;
+    border-color:black;
+
+ 
+}
+
+h1
+{
+    width:auto;
+}
+
+/*Styling af h3 tag i html filen*/
+h3
+{
+    color:#000000;
+    opacity:20%;
+    text-align: center;
+    text-decoration:none;
+    font:Arial;
+    font-style: italic;
+    width:auto;
+}
+
+a /* kalder links og styler dem her fra*/
+{
+    text-decoration:none;
+    color:#fff;
+    border-color:black;
+    border:5px;
+    font-size: 17px;
+    padding: 1px 150px;
+    margin: 0px 70px;
+    border-radius: 1px;
+    
+}
+
+.bannerleft
+{
+    border:10px;
+    border-color: #002c6d;
+    max-width:auto;
+    min-height:1000px;
+    background-color: #002c6d;
+    color:#fff;
+    border-style:groove 10px; 
+    float:left;   
+
+}
+
+.hojrebanner
+{
+    border:10px;
+    border-color: #002c6d;
+    max-width:auto;
+    min-height:1000px;
+    background-color: #002c6d;
+    color:#fff;
+    float:right;
+    border-style:groove 10px;
+    
+}
+
+footer
+{
+    border:10px;
+    border-color: #002c6d;
+    width:100%;
+    height:20%;
+    background-color: #002c6d;
+    color:#fff;
+    float:left;
+    border-style:groove 10px;
+    
+}
